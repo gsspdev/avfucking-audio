@@ -11,6 +11,11 @@
 		183F535728E7952100009481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F535628E7952100009481 /* ContentView.swift */; };
 		183F535928E7952200009481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183F535828E7952200009481 /* Assets.xcassets */; };
 		183F535C28E7952200009481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183F535B28E7952200009481 /* Preview Assets.xcassets */; };
+		183F536528E7963100009481 /* 808Clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183F536428E7963100009481 /* 808Clap.wav */; };
+		183F536828E798D700009481 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F536728E798D700009481 /* AudioPlayer.swift */; };
+		183F536A28E79F7800009481 /* Kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183F536928E79F7800009481 /* Kick.wav */; };
+		183F536C28E7A8F200009481 /* CHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183F536B28E7A8F200009481 /* CHat.wav */; };
+		183F536E28E7A93000009481 /* OHat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183F536D28E7A93000009481 /* OHat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		183F535628E7952100009481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		183F535828E7952200009481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183F535B28E7952200009481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		183F536428E7963100009481 /* 808Clap.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; name = 808Clap.wav; path = Assets.xcassets/808Clap.dataset/808Clap.wav; sourceTree = "<group>"; };
+		183F536728E798D700009481 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		183F536928E79F7800009481 /* Kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick.wav; sourceTree = "<group>"; };
+		183F536B28E7A8F200009481 /* CHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CHat.wav; sourceTree = "<group>"; };
+		183F536D28E7A93000009481 /* OHat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OHat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		183F534828E7952100009481 = {
 			isa = PBXGroup;
 			children = (
+				183F536628E7989400009481 /* audio-players */,
 				183F535328E7952100009481 /* avfucking-audio */,
 				183F535228E7952100009481 /* Products */,
 			);
@@ -54,6 +65,10 @@
 				183F535428E7952100009481 /* avfucking_audioApp.swift */,
 				183F535628E7952100009481 /* ContentView.swift */,
 				183F535828E7952200009481 /* Assets.xcassets */,
+				183F536928E79F7800009481 /* Kick.wav */,
+				183F536B28E7A8F200009481 /* CHat.wav */,
+				183F536428E7963100009481 /* 808Clap.wav */,
+				183F536D28E7A93000009481 /* OHat.wav */,
 				183F535A28E7952200009481 /* Preview Content */,
 			);
 			path = "avfucking-audio";
@@ -65,6 +80,14 @@
 				183F535B28E7952200009481 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		183F536628E7989400009481 /* audio-players */ = {
+			isa = PBXGroup;
+			children = (
+				183F536728E798D700009481 /* AudioPlayer.swift */,
+			);
+			path = "audio-players";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183F536528E7963100009481 /* 808Clap.wav in Resources */,
+				183F536C28E7A8F200009481 /* CHat.wav in Resources */,
 				183F535C28E7952200009481 /* Preview Assets.xcassets in Resources */,
+				183F536A28E79F7800009481 /* Kick.wav in Resources */,
+				183F536E28E7A93000009481 /* OHat.wav in Resources */,
 				183F535928E7952200009481 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +166,7 @@
 			files = (
 				183F535728E7952100009481 /* ContentView.swift in Sources */,
 				183F535528E7952100009481 /* avfucking_audioApp.swift in Sources */,
+				183F536828E798D700009481 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct avfucking_audioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AudioPlayer()
         }
     }
 }
